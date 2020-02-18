@@ -40,7 +40,8 @@ body
 .background
 {
   width: 100%;
-  max-height: 70vh;
+  min-height: 30vh;
+  max-height: 50vh;
 }
 .mainmenu li
 {
@@ -59,8 +60,9 @@ body
 }
 .mainmenu li :hover
 {
-  background-color: white;
-  padding: 0.25em;
+  background-color: rgb(153, 173, 175);
+  color:white;
+  padding: 0.55em;
 }
 input
 {
@@ -148,19 +150,20 @@ h2
 }
 .child_subsection a
 {
-  color:blue;;
+  color: blue;
 }
 .child_subsection a:hover
 {
   color:white;
   background-color: black;
-  text-decoration: Underline;
-  padding: 0.05em;
+  text-decoration: none;
+  padding: 1em;
 }
 .button-lead
 {
-  background-color: rgb(216, 168, 95);
+  background-color: rgb(46, 107, 131);
   padding: 0.5em;
+  text-decoration: none;
 }
 .parent-lead img
 {
