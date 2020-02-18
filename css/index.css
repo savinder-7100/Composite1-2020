@@ -8,6 +8,12 @@ body
     background-color: white;
     font-family: Arial,Tahoma,Bitstream Vera Sans,sans-serif;
 }
+nav
+{
+  background-image: url("/image/Rishikesh-hotels.jpg");
+  height: 70vh;
+  width: 100%;
+}
 .top-header
 {
     background-color:white;
