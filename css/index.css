@@ -64,10 +64,10 @@ body
   color:white;
   padding: 0.55em;
 }
-input
+.box
 {
-  float: center;
-  padding: 1em;
+  text-align: center;
+  padding: 0.50em;
 }
 .overviewsection
 {
@@ -87,6 +87,7 @@ h2
     font-size:24px;
     font-weight:700;
     line-height: 28px;
+    padding: 0.25em;
 }
 .subsection
 {
@@ -148,16 +149,24 @@ h2
     /*box-shadow: 0.25em 0.25em 0 black;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.child_subsection a
+.child_subsection li
+{
+  list-style-type: decimal;
+}
+.child_subsection .tops
 {
   color: blue;
+  text-decoration: none;
+  padding: 0.50em;
+}
+.child_subsection a
+{
+  color: white;
 }
 .child_subsection a:hover
 {
-  color:white;
-  background-color: black;
+  color:black;
   text-decoration: none;
-  padding: 1em;
 }
 .button-lead
 {
@@ -241,7 +250,7 @@ h3
 {
   text-decoration: none;
   color: black;
-  padding: 1em;
+  padding: 0.50em;
 }
 .right-side
 {
@@ -251,7 +260,7 @@ h3
 {
   text-decoration: none;
   color: black;
-  padding: 1em;
+  padding: 0.50em;
 }
 .footer-logo
 {
@@ -261,10 +270,9 @@ h3
 }
 footer
 {
-  padding:0.5em;
+  padding:0.50em;
   color: grey;
   font-size: 12px;
-  text-align: center;
 }
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
