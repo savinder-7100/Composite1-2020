@@ -139,6 +139,7 @@ h2
 #textarea:target + ul.controls .hide,#textarea + ul.controls .show
 {
   display: inline-block;
+  font-size: 16px;
 }
 .parent-section
 {
@@ -244,6 +245,10 @@ h2
 {
   padding: 1em;
   text-align: center;
+}
+.itemtwo img
+{
+  width: 100%;
 }
 .btn 
 {
