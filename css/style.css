@@ -144,6 +144,27 @@ span.psw {
 
 /* Change styles for span and cancel button on extra small screens */
 
+.container-two
+{
+  padding-left: 2.75rem;
+  line-height: 1.5rem;
+}
+.line
+{
+  color: rgb(41, 40, 40);
+}
+.line a 
+{
+  text-decoration: none;
+}
+.security-line
+{
+  color: grey;
+}
+.security-line a
+{
+  text-decoration: none;
+}
 .itemtwo
 {
   padding: 1em;
