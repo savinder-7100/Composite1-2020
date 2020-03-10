@@ -190,12 +190,7 @@ h3
 }
 .item
 {
-  width: 33%;
-  padding: 4px 10px 4px 0;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  box-sizing: border-box;
+  width: 100%;
 }
 .trip li a
 {
@@ -212,6 +207,10 @@ h3
 .right-side
 {
   text-align: left;
+}
+.interests li
+{
+  list-style: none;;
 }
 .interests li a
 {
@@ -237,7 +236,7 @@ footer
   font-size: 12px;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 320px) {
   span.psw {
      display: block;
      float: none;
@@ -245,4 +244,6 @@ footer
   .cancelbtn {
      width: 100%;
   }
+  .footer-main{grid-template-columns: 1fr;}
 }
+

@@ -286,12 +286,8 @@ h3
 }
 .item
 {
-  width: 33%;
-  padding: 4px 10px 4px 0;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  box-sizing: border-box;
+  width: 100%;
+  
 }
 .trip li a
 {
@@ -308,6 +304,10 @@ h3
 .right-side
 {
   text-align: left;
+}
+.interests li
+{
+  list-style: none;;
 }
 .interests li a
 {
@@ -346,6 +346,7 @@ footer
     body{ font-size :1em;}
     .parent-section{ display:grid;
     grid-template-columns: 1fr;}
+    .footer-main{grid-template-columns: 1fr;}
 }
 @media screen and (min-width:600px){
     .parent-section{ display:grid;
