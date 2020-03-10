@@ -7,7 +7,7 @@
     <meta name="author" content="Your Name Here">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TripAdvisor:Read reviews,Compare prices & book</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!--Top navigation bar-->
@@ -50,18 +50,19 @@
           </div>
     </nav>
 
-    <h2>Login Form</h2> 
-    <form action="/action_page.php" method="post">
+    <article class="login-form">
+    <h2 class="login">Login Form</h2> 
+    <form>
       <div class="imgcontainer">
-        <img src="/image/trip-logo.svg" width="100px" height="100px" alt="Avatar" class="avatar">
-      </div>
+        <img src="/image/trip-logo.svg" width="200px" height="200px" alt="Avatar" class="avatar">
+      </div> 
     
-      <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+      <div class="container"> 
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Enter Username"><br>
     
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password"><br>
             
         <button type="submit">Login</button>
         <label>
@@ -69,11 +70,12 @@
         </label>
       </div>
     
-      <div class="container" style="background-color:#f1f1f1">
+      <div class="container">
         <button type="button" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#">password?</a></span>
+        <span>Forgot <a href="#">password?</a></span>
       </div>
     </form> 
+  </article>
 
     <article class="itemtwo">
       <a href="#"><img src="image/couponimg.png" ></a>
